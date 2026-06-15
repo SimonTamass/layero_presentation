@@ -1,0 +1,6 @@
+*.log
+localhost-server.*.log
+output/
+node_modules/
+.DS_Store
+Thumbs.db

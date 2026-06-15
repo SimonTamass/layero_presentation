@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Layero Tudástár - történetek, tippek, kategóriák és inspirációk prémium 3D alkotásokhoz.">
+    <title>Tudástár | Layero 3D Design</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header motion-load" style="--load-delay: 80ms">
+      <div class="header-shell">
+        <a class="logo" href="index.html" aria-label="Layero 3D Design főoldal">
+          <img class="logo__brand-mark" src="assets/layero-logo-mark-from-source.png" alt="" width="240" height="237">
+          <img class="logo__brand-wordmark" src="assets/layero-logo-wordmark-from-source.png" alt="Layero 3D Design" width="493" height="171">
+        </a>
+        <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+          <span class="sr-only">Menü megnyitása</span><span class="nav-toggle__line" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="site-navigation" aria-label="Főmenü">
+          <a href="vizio.html">Vízió</a>
+          <a href="egyedi-munkak.html">Egyedi munkák</a>
+          <a href="inspiracio.html">Inspiráció</a>
+          <a href="tudastar.html" aria-current="page">Tudástár</a>
+          <a href="hogyan-mukodik.html">Hogyan működik</a>
+          <a href="rolunk.html">Rólunk</a>
+        </nav>
+        <a class="btn btn--outline header-cta" href="kapcsolat.html">Belépés a shopba <span aria-hidden="true">→</span></a>
+      </div>
+    </header>
+
+    <main class="subpage-main knowledge-page">
+      <section class="subpage-hero subpage-hero--compact knowledge-hero" aria-labelledby="page-title">
+        <div class="subpage-hero__bg" aria-hidden="true"></div>
+        <div class="subpage-hero__fx" aria-hidden="true">
+          <span class="subpage-hero__scan"></span>
+          <span class="subpage-hero__grid-bg"></span>
+        </div>
+        <div class="subpage-hero__shade" aria-hidden="true"></div>
+        <div class="subpage-shell subpage-hero__grid">
+          <div class="subpage-hero__copy">
+            <h1 class="subpage-title" id="page-title">Tudástár</h1>
+            <p class="subpage-lead">Történetek, tippek és inspirációk <span>rétegről rétegre.</span></p>
+            <p class="mini-copy">Fedezd fel a 3D design világát: ajándékötletek, nyomtatási tippek, anyagismeret, műhelytitkok és egyedi alkotások a Layero műhelyéből.</p>
+            <div class="subpage-hero__actions">
+              <a class="btn btn--primary" href="#kiemelt-cikk">Kiemelt cikk <span aria-hidden="true">→</span></a>
+              <a class="btn btn--ghost" href="#osszes-bejegyzes">Összes bejegyzés <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subpage-section subpage-section--tight" id="kiemelt-cikk">
+        <div class="subpage-shell">
+          <article class="knowledge-feature page-card">
+            <div class="knowledge-feature__media"><img src="assets/images/parametric-vase-object.webp" alt="Parametrikus 3D váza"></div>
+            <div class="knowledge-feature__body">
+              <p class="subpage-kicker">Kiemelt cikk</p>
+              <h2 class="mini-title">Személyre szabott ajándékok: amik valóban <span>örök emlékek</span></h2>
+              <p class="mini-copy">Hogyan lesz egy ötletből különleges, 3D nyomtatással készült ajándék? Ötletek, példák és tippek a tökéletes meglepetéshez.</p>
+              <p class="article-meta">2024. május 18. / 6 perc olvasás / Layero csapat</p>
+              <a class="page-card__link" href="szemelyre-szabott-ajandekok.html">Tovább <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="subpage-section subpage-section--tight" id="osszes-bejegyzes">
+        <div class="subpage-shell">
+          <div class="knowledge-categories" aria-label="Tudástár kategóriák" data-knowledge-filters>
+            <button class="knowledge-chip is-active" type="button" data-knowledge-filter="all" aria-pressed="true"><span aria-hidden="true"></span> Összes</button>
+            <button class="knowledge-chip" type="button" data-knowledge-filter="ajandekotletek" aria-pressed="false"><span aria-hidden="true"></span> Ajándékötletek</button>
+            <button class="knowledge-chip" type="button" data-knowledge-filter="nyomtatas" aria-pressed="false"><span aria-hidden="true"></span> 3D nyomtatás</button>
+            <button class="knowledge-chip" type="button" data-knowledge-filter="anyagismeret" aria-pressed="false"><span aria-hidden="true"></span> Anyagismeret</button>
+            <button class="knowledge-chip" type="button" data-knowledge-filter="muhelytitkok" aria-pressed="false"><span aria-hidden="true"></span> Műhelytitkok</button>
+            <button class="knowledge-chip" type="button" data-knowledge-filter="esettanulmanyok" aria-pressed="false"><span aria-hidden="true"></span> Esettanulmányok</button>
+            <button class="knowledge-chip" type="button" data-knowledge-filter="inspiracio" aria-pressed="false"><span aria-hidden="true"></span> Inspiráció</button>
+          </div>
+          <p class="sr-only" aria-live="polite" data-knowledge-filter-status>6 bejegyzés látható.</p>
+
+          <div class="knowledge-grid" data-knowledge-grid>
+            <article class="knowledge-card page-card" id="ajandekotletek" data-knowledge-card data-knowledge-categories="ajandekotletek inspiracio">
+              <div class="page-card__media"><img src="assets/images/custom-family-nameplate.webp" alt="Egyedi családi névtábla"></div>
+              <div class="page-card__body">
+                <p class="article-category">Ajándékötletek</p>
+                <h3>Apa napja: 7 személyre szabott ajándék, ami biztosan örömet okoz</h3>
+                <p>Egyedi, 3D nyomtatott meglepetések, amelyek maradandó emlékké válnak.</p>
+                <p class="article-meta">2024. ápr. 30. / 5 perc</p>
+                <a class="page-card__link" href="szemelyre-szabott-ajandekok.html">Tovább <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="knowledge-card page-card" id="nyomtatas" data-knowledge-card data-knowledge-categories="nyomtatas muhelytitkok">
+              <div class="page-card__media"><img src="assets/images/how-command/step-04-production.webp" alt="3D nyomtatási folyamat"></div>
+              <div class="page-card__body">
+                <p class="article-category">3D nyomtatás</p>
+                <h3>10 tipp tökéletes 3D nyomtatáshoz</h3>
+                <p>Beállítások, trükkök és gyakori hibák, amelyeket érdemes előre elkerülni.</p>
+                <p class="article-meta">2024. ápr. 22. / 7 perc</p>
+                <a class="page-card__link" href="hogyan-mukodik.html">Tovább <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="knowledge-card page-card" id="anyagismeret" data-knowledge-card data-knowledge-categories="anyagismeret nyomtatas">
+              <div class="page-card__media"><img src="assets/images/how-command/step-05-delivery.webp" alt="Prémium kivitel és anyagok"></div>
+              <div class="page-card__body">
+                <p class="article-category">Anyagismeret</p>
+                <h3>Milyen anyagot válasszunk? PLA, PETG, ABS röviden</h3>
+                <p>Összehasonlítjuk a legnépszerűbb filamenteket, hogy könnyebb legyen a döntés.</p>
+                <p class="article-meta">2024. ápr. 15. / 4 perc</p>
+                <a class="page-card__link" href="hogyan-mukodik.html">Tovább <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="knowledge-card page-card" id="muhelytitkok" data-knowledge-card data-knowledge-categories="muhelytitkok">
+              <div class="page-card__media"><img src="assets/images/layero-wire-heart-sculpture.webp" alt="Felületkezelt 3D szív szobor"></div>
+              <div class="page-card__body">
+                <p class="article-category">Műhelytitkok</p>
+                <h3>A Layero műhelytitkai: felületkezelés és utómunka</h3>
+                <p>Így lesz a nyomtatott modellből prémium minőségű alkotás.</p>
+                <p class="article-meta">2024. ápr. 8. / 6 perc</p>
+                <a class="page-card__link" href="vizio.html">Tovább <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="knowledge-card page-card" id="esettanulmanyok" data-knowledge-card data-knowledge-categories="esettanulmanyok ajandekotletek">
+              <div class="page-card__media"><img src="assets/images/branded-3d-object-emblem.webp" alt="Márkázott 3D objektum"></div>
+              <div class="page-card__body">
+                <p class="article-category">Esettanulmányok</p>
+                <h3>Egyedi céges ajándék projektünk lépésről lépésre</h3>
+                <p>Így készítettünk 120 darab díjat egy innovatív tech vállalat számára.</p>
+                <p class="article-meta">2024. ápr. 1. / 8 perc</p>
+                <a class="page-card__link" href="markaknak-es-alkotoknak.html">Tovább <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="knowledge-card page-card" id="inspiracio" data-knowledge-card data-knowledge-categories="inspiracio">
+              <div class="page-card__media"><img src="assets/images/decorative-lattice-ornament.webp" alt="Organikus dekoratív 3D forma"></div>
+              <div class="page-card__body">
+                <p class="article-category">Inspiráció</p>
+                <h3>Design inspirációk: organikus formák a 3D világában</h3>
+                <p>Gyönyörű alkotások, amelyek megmutatják, mi minden lehetséges.</p>
+                <p class="article-meta">2024. márc. 25. / 6 perc</p>
+                <a class="page-card__link" href="inspiracio.html">Tovább <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="subpage-section subpage-section--tight">
+        <div class="subpage-shell knowledge-duo">
+          <article class="page-card page-card--pad">
+            <p class="subpage-kicker">Kiemelt esettanulmány</p>
+            <h2 class="mini-title">Egy ötlet útja: a koncepciótól az elkészült alkotásig</h2>
+            <p class="mini-copy">Részletesen bemutatjuk, hogyan születik meg egy személyre szabott projekt a Layero műhelyében.</p>
+            <a class="page-card__link" href="hogyan-mukodik.html">Elolvasom <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="page-card knowledge-duo__image">
+            <div class="page-card__media"><img src="assets/images/decorative-lattice-ornament.webp" alt="Lume lámpa dekoratív 3D alkotás"></div>
+            <div class="page-card__body">
+              <p class="article-category">A műhelyből</p>
+              <h3>Hónap alkotása: Lumé lámpa</h3>
+              <p>Kifinomult design és precíz nyomtatás, ahol a részletekben rejlik a varázs.</p>
+              <a class="page-card__link" href="inspiracio.html">Megnézem <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="subpage-section subpage-section--tight">
+        <div class="subpage-shell knowledge-newsletter">
+          <div>
+            <p class="subpage-kicker">Ne maradj le az új történetekről</p>
+            <h2 class="mini-title">Friss tippek és inspirációk a <span>műhelyből.</span></h2>
+            <p>Iratkozz fel hírlevelünkre, és havonta küldünk inspirációt, tippeket és exkluzív betekintést a Layero világába.</p>
+          </div>
+          <form class="knowledge-newsletter__form" action="mailto:hello@layero3d.hu" method="post" enctype="text/plain">
+            <label class="sr-only" for="knowledge-email">E-mail címed</label>
+            <input id="knowledge-email" name="email" type="email" placeholder="E-mail címed">
+            <button class="btn btn--primary" type="submit">Feliratkozom <span aria-hidden="true">→</span></button>
+            <small>Bármikor leiratkozhatsz. Adataidat bizalmasan kezeljük.</small>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__bottom">
+        <p>© 2024 Layero 3D Design. Minden jog fenntartva.</p>
+        <div><a href="vizio.html">Vízió</a><a href="egyedi-munkak.html">Egyedi munkák</a><a href="inspiracio.html">Inspiráció</a><a href="tudastar.html">Tudástár</a><a href="hogyan-mukodik.html">Hogyan működik</a><a href="rolunk.html">Rólunk</a></div>
+      </div>
+    </footer>
+    <script src="script.js?v=knowledge-filter"></script>
+  </body>
+</html>

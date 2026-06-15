@@ -1,0 +1,906 @@
+Layero főoldal — design elemekre bontva
+1. Globális arculati alap
+1.1. Színvilág
+
+Fő háttérszín:
+mély navy / majdnem fekete kék
+
+Példák:
+
+#020812
+#04111E
+#061A2A
+#071F31
+
+Fő akcent szín:
+neon türkiz / cyan
+
+#00E5FF
+#00D7E8
+#16F4FF
+#42F7FF
+
+Másodlagos fények:
+hideg kék, elektromos kék
+
+#0A6DFF
+#1C8DFF
+#3BB8FF
+
+Szöveg:
+tiszta fehér + tört fehér + szürkés kék
+
+fő cím: #FFFFFF
+másodlagos szöveg: #C6D1DD
+leíró szöveg: #8FA3B8
+halvány vonalak: rgba(255,255,255,0.12)
+
+Meleg kontraszt a képeknél:
+arany / borostyán fény az ajándéktárgyaknál
+
+#D99B45
+#F0C27A
+#FFB84D
+
+Ez nagyon jó, mert a hideg futurisztikus brandhez hozzáad egy emberibb, ajándékos, érzelmi melegséget.
+
+2. Háttérrendszer
+2.1. Fő hero háttér
+
+Ez az oldal legerősebb eleme.
+
+Elemek:
+
+monumentális futurisztikus csarnok / alagút
+organikus, bordázott, parametrikus szerkezet
+ívelt, réteges vonalak
+sötét kék/fekete anyag
+cyan peremfények
+távoli városi skyline
+üvegszerű, tükröződő padló
+kis emberi sziluett a térben
+
+Funkciója:
+wow faktor, prémium érzet, skála, futurisztikus Layero-univerzum.
+
+Használat:
+ez legyen a fő brand vizuál, ne legyen lecserélve általános 3D printer képre.
+
+2.2. Alsó háttér mintázatok
+
+A hero alatt nem teljesen üres a háttér, hanem finoman folytatódik az organikus vonalrendszer.
+
+Elemek:
+
+sötét hullámzó kontúrvonalak
+íves rétegformák
+halvány cyan fények
+enyhe radiális glow
+nagy sötét üres terek
+
+Funkció:
+összeköti az oldalt vizuálisan, de nem zsúfolja túl.
+
+2.3. Szekcióelválasztó hullámvonalak
+
+Az oldalon több helyen látható vékony, íves, szinte topográfiai vonal.
+
+Elem:
+
+1 px vékony, halvány cyan/szürkés vonal
+nagy ívben halad át a képernyőn
+nem klasszikus vízszintes elválasztó
+
+Funkció:
+organikus, prémium átmenet a szekciók között.
+
+3. Header / navigáció
+3.1. Bal felső logó blokk
+
+Tartalom:
+
+Layero ikon
+LAYERO
+3D DESIGN
+
+Design:
+
+ikon: neon cyan, vonalas, geometrikus, rétegelt L-forma
+szöveg: fehér, futurisztikus sans-serif
+3D DESIGN: betűközös, vékony, elegáns
+
+Méretarány:
+
+ikon kb. 40–48 px
+logó szöveg kb. 22–26 px
+alcím kb. 10–12 px, nagy letter-spacinggel
+3.2. Felső menü
+
+Menüpontok:
+
+VÍZIÓ
+EGYEDI MUNKÁK
+INSPIRÁCIÓ
+HOGYAN MŰKÖDIK
+RÓLUNK
+
+Design:
+
+kis méretű uppercase
+fehér / tört fehér
+nagy betűköz
+sok térköz a menüpontok között
+minimalista, nem dominálja a hero részt
+3.3. Jobb felső CTA gomb
+
+Szöveg:
+
+BELÉPÉS A SHOPBA →
+
+Design:
+
+pill alakú gomb
+vékony cyan outline
+sötét belső háttér
+cyan szöveg
+kis nyíl ikon jobbra
+hover esetén lehet kitöltött cyan háttér
+
+Funkció:
+diszkréten átvezet a webshopra, de nem teszi webshopos érzetűvé az oldalt.
+
+4. Hero szekció
+4.1. Központi nagy Layero embléma
+
+Elem:
+
+nagy neon cyan ikon a hero közepén
+glow effekt
+monogram / rétegelt L jel
+
+Funkció:
+brand imprint. Ez az első vizuális rögzítési pont.
+
+Stílus:
+
+3D neon hatás
+enyhe külső fény
+lekerekített geometrikus vonalak
+4.2. Nagy wordmark
+
+Szöveg:
+
+LAYERO
+
+Design:
+
+nagy fehér futurisztikus sans-serif
+széles betűköz
+enyhe fény / glow
+középre igazítva
+
+Alatta:
+
+3D DESIGN
+
+kisebb
+nagy tracking
+elegáns, technológiai
+4.3. Hero headline
+
+Magyar szöveg:
+
+Az ötleted formát ölt, rétegről rétegre.
+
+Design:
+
+középre zárt
+fehér főszöveg
+rétegről rétegre cyan kiemeléssel
+nem túl nagy, mert a logó dominál
+
+Funkció:
+azonnal elmondja: egyedi ötletből fizikai tárgy lesz.
+
+4.4. Hero leírás
+
+Szöveg:
+
+Személyre szabott ajándékok, egyedi 3D alkotások és rendelésre készült különleges darabok — prémium részletességgel és modern kivitelezéssel megalkotva.
+
+Design:
+
+2–3 sor
+halvány fehér / szürkés kék
+középre igazítva
+visszafogott méret
+
+Funkció:
+tisztázza, hogy nem csak design brand, hanem egyedi rendelés + ajándék + 3D alkotás.
+
+4.5. Hero CTA gombok
+Elsődleges gomb
+
+Szöveg:
+
+EGYEDI MEGRENDELÉS KÉRÉSE
+
+Design:
+
+kitöltött cyan gomb
+lekerekített pill forma
+sötét szöveg
+enyhe neon glow
+erős, de nem harsány
+Másodlagos gomb
+
+Szöveg:
+
+BELÉPÉS A SHOPBA →
+
+Design:
+
+sötét, áttetsző háttér
+cyan outline
+cyan szöveg
+nyíl ikon
+
+Funkció:
+két út: egyedi rendelés vagy webshop.
+
+4.6. Emberi sziluett
+
+Elem:
+
+kis álló emberalak a bal alsó hero részben
+sötét ruha / sziluett
+háttal vagy oldalasan áll
+
+Funkció:
+
+léptéket ad a térnek
+emberibbé teszi a futurisztikus világot
+storytelling érzetet ad
+
+Fontos:
+ne legyen túl nagy, ne legyen portrészerű. Maradjon ikonikus, filmes figura.
+
+5. Brand statement szekció
+5.1. Szekció címke
+
+Szöveg:
+
+TÖBBET ALKOTUNK TÁRGYAKNÁL.
+
+Design:
+
+kis uppercase
+cyan
+nagy betűköz
+balra igazított
+5.2. Nagy állítás
+
+Szöveg:
+
+Megragadjuk a jelentést, és formába öntjük.
+
+Design:
+
+nagy serif / elegáns display font
+fehér
+kulcsszó cyan kiemeléssel: formába
+két soros tördelés
+
+Funkció:
+ez a brand egyik legerősebb érzelmi mondata.
+
+5.3. Három rövid állítás
+
+Szöveg:
+
+Minden rétegnek célja van.
+Minden részlet egy történet.
+Minden alkotás egy kapcsolat.
+
+Design:
+
+kis méret
+szürkés fehér
+egymás alatt
+balra zárt
+
+Funkció:
+brandfilozófia tömören.
+
+5.4. Jobb oldali fő 3D objektum
+
+Elem:
+
+áttört, rácsos, fémes szív forma
+kör alakú talapzaton
+hideg kék/cyan fény
+prémium render
+
+Funkció:
+összeköti az érzelmi ajándék vonalat a high-end 3D technológiával.
+
+Ez nagyon erős elem.
+Érdemes külön assetként kezelni:
+
+hero-secondary-heart-sculpture.png
+
+6. Három fő szolgáltatás kártya
+6.1. Kártya általános stílus
+
+Design:
+
+dark glassmorphism panel
+áttetsző navy háttér
+vékony cyan/szürke border
+finom glow
+lekerekített sarkok
+ikon bal oldalon
+szöveg jobb oldalon
+szellős belső padding
+6.2. Kártya 1 — Személyre szabott ajándékok
+
+Ikon:
+
+ajándékdoboz vonalas ikon
+cyan stroke
+
+Cím:
+
+SZEMÉLYRE SZABOTT AJÁNDÉKOK
+
+Leírás:
+
+Jelentéssel teli, emlékezetes, kifejezetten nekik készítve.
+
+Funkció:
+érzelmi, B2C ajándék fókusz.
+
+6.3. Kártya 2 — Egyedi megrendelések
+
+Ikon:
+
+kocka / 3D cube ikon
+cyan outline
+
+Cím:
+
+EGYEDI MEGRENDELÉSEK
+
+Leírás:
+
+A te ötleted, a mi precizitásunk. Közösen megalkotva.
+
+Funkció:
+egyedi elképzelések, custom work, prototípus, egyedi tárgy.
+
+6.4. Kártya 3 — Prémium 3D alkotások
+
+Ikon:
+
+stilizált A / szobor ikon
+cyan outline
+
+Cím:
+
+PRÉMIUM 3D ALKOTÁSOK
+
+Leírás:
+
+Szenvedéllyel és precizitással megalkotott innovatív formák.
+
+Funkció:
+művészi / prémium / design érték.
+
+7. Inspirációs galéria
+7.1. Szekció cím
+
+Szöveg:
+
+SZEMÉLYESSÉ TETT ÖTLETEK
+
+Design:
+
+középre zárt
+kis uppercase
+cyan
+nagy tracking
+sok felső/alsó térköz
+7.2. Galéria kártyák
+Kép 1 — Világító ajándék plakett
+
+Téma:
+
+akril / üveg hatású világító tábla
+fa vagy fekete talp
+meleg arany fény
+
+Felirat példa:
+
+A legjobb APÁNAK a világon. Szeretünk mindig.
+
+Funkció:
+személyre szabott ajándék kommunikáció.
+
+Kép 2 — Névtábla
+
+Téma:
+
+fa / fém névtábla
+meleg belső fény
+prémium családi / otthoni ajándék
+
+Felirat:
+
+KOVÁCS
+ALAPÍTVA: 2024
+
+Funkció:
+névtáblák, családi ajándék, dekor.
+
+Kép 3 — Szoborszerű váza / organikus forma
+
+Téma:
+
+sötét, csavart, rácsos 3D váza
+prémium tárgyfotó
+hideg fény
+
+Funkció:
+3D design, formakísérlet, dekoráció.
+
+Kép 4 — Márkázott objektum
+
+Téma:
+
+sötét fém embléma / logó tárgy
+hexagon vagy badge forma
+monogram
+
+Funkció:
+brand object, céges ajándék, prémium márkatárgy.
+
+Kép 5 — Dekoratív filigrán tárgy
+
+Téma:
+
+tojás / kapszula / ornament forma
+áttört rácsos szerkezet
+fa talp, meleg fény
+
+Funkció:
+dekor, emléktárgy, prémium lakásdísz.
+
+7.3. Galéria alatti mondat
+
+Szöveg:
+
+A személyes pillanatoktól a merész ötletekig — 3D-ben keltjük őket életre.
+
+Design:
+
+középre zárt
+halvány szürke
+nagyon elegáns, editorial jelleg
+8. Hogyan működik szekció
+8.1. Szekció cím
+
+Szöveg:
+
+HOGYAN MŰKÖDIK
+
+Design:
+
+középre zárt
+cyan uppercase
+nagy betűköz
+8.2. Process panel
+
+Design:
+
+széles, lekerekített dark panel
+vékony border
+belül 4 oszlop
+cyan ikonok
+cyan nyilak a lépések között
+8.3. Lépés 1
+
+Ikon:
+
+beszédbuborék
+
+Cím:
+
+1. OSD MEG AZ ÖTLETED
+
+Leírás:
+
+Mondd el, mire van szükséged, mi fontos neked, és mit képzelsz el.
+
+8.4. Lépés 2
+
+Ikon:
+
+ceruza / tervezés ikon
+
+Cím:
+
+2. MEGTERVEZZÜK
+
+Leírás:
+
+Finomítjuk az ötletedet, és együtt tökéletesítjük a részleteket.
+
+8.5. Lépés 3
+
+Ikon:
+
+nyomtató / készítés ikon
+
+Cím:
+
+3. ÉLETRE KELTJÜK
+
+Leírás:
+
+Precízen és gondosan megalkotva, rétegről rétegre.
+
+8.6. Lépés 4
+
+Ikon:
+
+doboz / csomag ikon
+
+Cím:
+
+4. A TIÉD
+
+Leírás:
+
+Házhoz szállítva, készen arra, hogy örömet szerezzen.
+
+9. Záró CTA blokk
+9.1. CTA panel
+
+Design:
+
+széles, lekerekített glass panel
+sötét navy háttér
+vékony border
+sok belső tér
+bal oldalon nagy headline
+középen rövid szöveg
+jobb oldalon gomb
+9.2. CTA headline
+
+Szöveg:
+
+Alkossunk valami igazán egyedit.
+
+Design:
+
+nagy serif/display font
+igazán egyedit cyan kiemeléssel
+balra igazított
+9.3. CTA leírás
+
+Szöveg:
+
+Minden projekt egy beszélgetéssel kezdődik. Oszd meg az ötleted, és alkossunk valami felejthetetlent.
+
+Design:
+
+szürkés fehér
+kisebb méret
+2–3 sor
+9.4. CTA gomb
+
+Szöveg:
+
+PROJEKT INDÍTÁSA →
+
+Design:
+
+kitöltött cyan pill gomb
+sötét szöveg
+nyíl ikon
+enyhe glow
+10. Footer
+10.1. Footer logó
+
+Elemek:
+
+Layero ikon
+LAYERO
+3D DESIGN
+
+Design:
+ugyanaz, mint headerben, csak kisebb / alsó elhelyezésben.
+
+10.2. Footer navigáció
+
+Menüpontok:
+
+VÍZIÓ
+EGYEDI MUNKÁK
+INSPIRÁCIÓ
+HOGYAN MŰKÖDIK
+RÓLUNK
+
+Design:
+
+kis uppercase
+halvány fehér
+vízszintes elrendezés
+10.3. Social ikonok
+
+Ikonok:
+
+LinkedIn
+Instagram
+Dribbble / web / közösségi ikon
+
+Design:
+
+kör alakú outline
+fehér/szürkés stroke
+hover esetén cyan
+10.4. Copyright és jogi linkek
+
+Szöveg:
+
+© 2024 Layero 3D Design. Minden jog fenntartva.
+
+Jogi linkek:
+
+Adatvédelmi tájékoztató
+Általános szerződési feltételek
+
+Design:
+
+nagyon kicsi
+halvány szürke
+alsó sorban
+11. Ikonkészlet
+
+Az oldal ikonstílusa egységes.
+
+11.1. Ikonstílus
+
+Jellemzők:
+
+line icon
+1.5–2 px stroke
+cyan szín
+lekerekített vonalvégek
+minimalista
+technológiai / geometrikus
+11.2. Használt ikonok
+Layero monogram ikon
+Ajándékdoboz ikon
+3D kocka ikon
+Stilizált A / szobor ikon
+Beszédbuborék ikon
+Ceruza ikon
+3D printer / készítés ikon
+Csomag / box ikon
+Nyíl ikonok
+Social ikonok
+Shop CTA nyíl
+12. Képi asset lista
+12.1. Hero fő háttér
+
+Név javaslat:
+hero-layero-futuristic-tunnel.jpg
+
+Leírás:
+parametrikus futurisztikus csarnok, városi skyline, emberi sziluett, cyan fények.
+
+12.2. Másodlagos szív szobor
+
+Név javaslat:
+layero-wire-heart-sculpture.png
+
+Leírás:
+áttört fémes szív, kerek talapzaton, hideg cyan fényben.
+
+12.3. Ajándék plakett kép
+
+Név javaslat:
+personalized-father-plaque.jpg
+
+Leírás:
+világító akril tábla Apának, meleg arany fényekkel.
+
+12.4. Névtábla kép
+
+Név javaslat:
+custom-family-nameplate.jpg
+
+Leírás:
+Kovács névtábla, fa/fém hatás, meleg fény.
+
+12.5. Organikus váza
+
+Név javaslat:
+parametric-vase-object.jpg
+
+Leírás:
+sötét, csavart, 3D nyomtatott dekor váza.
+
+12.6. Márkázott embléma
+
+Név javaslat:
+branded-3d-object-emblem.jpg
+
+Leírás:
+fémes, geometrikus brand object / badge.
+
+12.7. Dekoratív filigrán forma
+
+Név javaslat:
+decorative-lattice-ornament.jpg
+
+Leírás:
+áttört rácsos dekorációs tárgy talapzaton.
+
+13. Tipográfia
+13.1. Fő címbetű
+
+Stílus:
+elegáns serif vagy modern editorial serif.
+
+Használat:
+
+nagy állítások
+CTA headline
+brand statement
+
+Hasonló fontok:
+
+Canela
+Cormorant Garamond
+Editorial New
+Playfair Display
+IvyPresto
+13.2. UI / navigáció font
+
+Stílus:
+modern geometric sans-serif.
+
+Használat:
+
+navigáció
+gombok
+kártyacímek
+kis uppercase címkék
+
+Hasonló fontok:
+
+Sora
+Space Grotesk
+Inter
+Manrope
+Neue Montreal
+Aeonik
+13.3. Betűkezelés
+
+Jellemzők:
+
+uppercase címkék nagy trackinggel
+headline-ok nagy kontraszttal
+fontos kulcsszavak cyan színnel
+kevés szöveg, sok tér
+14. Layout rendszer
+14.1. Oldalszélesség
+
+Ajánlott max-width:
+
+tartalom: 1180–1240 px
+hero vizuál: full width
+kártyák: max 1100–1180 px
+14.2. Grid
+
+Használt elrendezések:
+
+hero: középre zárt kompozíció
+statement: 2 oszlop, bal szöveg + jobb 3D objektum
+feature cards: 3 oszlop
+gallery: 5 oszlop
+process: 4 oszlop
+CTA: 3 részes vízszintes layout
+footer: bal logó + közép nav + jobb social
+14.3. Térközök
+
+Hangulat:
+szellős, prémium, nem zsúfolt.
+
+Ajánlott spacing:
+
+szekciók között: 90–140 px
+kártyák között: 20–28 px
+kártya belső padding: 28–36 px
+hero alsó margin: nagy, kb. 100 px
+15. Komponenslista fejlesztéshez
+
+Ezt így lehetne komponensekre bontani:
+
+Header
+Logo
+Navigation
+ShopButton
+HeroSection
+HeroBackground
+HeroBrandLockup
+HeroCTAGroup
+BrandStatementSection
+SculptureShowcase
+ServiceCard
+ServiceCardsGrid
+GallerySection
+GalleryCard
+ProcessSection
+ProcessStep
+FinalCTA
+Footer
+SocialIcons
+LegalLinks
+16. Mi adja az oldal erejét?
+
+A legerősebb design elemek sorrendben:
+
+Hero háttér — futurisztikus parametrikus tér
+Nagy Layero logó és neon monogram
+Sötét navy + cyan prémium színvilág
+Áttört 3D szív szobor
+Ajándék + design + brand object galéria keverése
+Kevés, de erős szöveg
+Szellős layout
+Nem webshopos, hanem brand experience jelleg
+Meleg arany fények az ajándék képeknél
+Vonalas cyan ikonrendszer
+17. Amit mindenképp tarts meg
+
+Ezeket nem változtatnám:
+
+a hero tér mélysége
+a központi Layero embléma
+a cyan/fekete prémium hangulat
+a kis emberi figura
+a szív szobor
+a három fő irány: ajándék / egyedi / prémium 3D
+a rövid folyamat
+a nagy alsó CTA
+a szellős arányok
+18. Amit külön assetként kell legyártani
+
+Ha ezt tényleges weboldalhoz építed, ezekre lesz szükség:
+
+Layero logó SVG
+Layero monogram SVG
+Hero háttérkép desktop
+Hero háttérkép mobil
+Szív szobor render PNG/WebP
+Ajándék plakett kép
+Névtábla kép
+Parametrikus váza kép
+Márkázott objektum kép
+Dekoratív filigrán tárgy kép
+Vonalas ikonok SVG-ben
+Háttér wave/contour pattern SVG
+CTA nyíl ikon
+Social ikonok
+Gomb komponensek
+Kártya komponensek
+Process step komponensek
+Röviden
+
+Ez az oldal nem attól jó, hogy sok elem van rajta, hanem attól, hogy minden elem ugyanazt a prémium futurisztikus Layero-világot építi.
+
+A fő recept:
+
+monumentális sötét hero + cyan tech glow + személyes ajándék melegség + kevés, jól megírt szöveg + szellős komponensek.

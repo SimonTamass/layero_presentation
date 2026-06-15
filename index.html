@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Layero 3D Design - szemelyre szabott ajandekok, egyedi 3D alkotasok es premium megrendelesek.">
+    <title>Layero 3D Design</title>
+    <link rel="preload" href="assets/images/hero-layero-futuristic-tunnel-900.webp" as="image" media="(max-width: 720px)">
+    <link rel="preload" href="assets/images/hero-layero-futuristic-tunnel-1200.webp" as="image" media="(min-width: 721px) and (max-width: 1060px)">
+    <link rel="preload" href="assets/images/hero-layero-futuristic-tunnel-1600.webp" as="image" media="(min-width: 1061px)">
+    <link rel="preload" href="assets/images/hero-local-romania-transparent-720.webp" as="image" media="(min-width: 1061px)">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+        <path d="M5 12h14"></path>
+        <path d="m13 6 6 6-6 6"></path>
+      </symbol>
+      <symbol id="icon-gift" viewBox="0 0 24 24">
+        <rect x="3" y="8" width="18" height="13" rx="2"></rect>
+        <path d="M12 8v13"></path>
+        <path d="M3 12h18"></path>
+        <path d="M7.5 8A3 3 0 1 1 12 4.4 3 3 0 1 1 16.5 8"></path>
+      </symbol>
+      <symbol id="icon-cube" viewBox="0 0 24 24">
+        <path d="m12 2 9 5v10l-9 5-9-5V7l9-5Z"></path>
+        <path d="M12 22V12"></path>
+        <path d="m3.3 7.2 8.7 4.8 8.7-4.8"></path>
+      </symbol>
+      <symbol id="icon-sculpture" viewBox="0 0 24 24">
+        <path d="M4 21 10.5 3h3L20 21"></path>
+        <path d="M7 15h10"></path>
+        <path d="M9.2 9h5.6"></path>
+        <path d="M14.2 3c2.2 1.4 3.7 3.3 4.4 5.8"></path>
+      </symbol>
+      <symbol id="icon-message" viewBox="0 0 24 24">
+        <path d="M21 11.5a8.5 8.5 0 0 1-11.8 7.8L3 21l1.7-5.7A8.5 8.5 0 1 1 21 11.5Z"></path>
+      </symbol>
+      <symbol id="icon-pen" viewBox="0 0 24 24">
+        <path d="m17 3 4 4L8 20l-5 1 1-5L17 3Z"></path>
+        <path d="m15 5 4 4"></path>
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="8"></circle>
+        <path d="M12 7v5l3 2"></path>
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="M12 3 19 6v5c0 4.4-2.8 7.9-7 10-4.2-2.1-7-5.6-7-10V6l7-3Z"></path>
+        <path d="m8.8 12.1 2.1 2.1 4.6-4.8"></path>
+      </symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24">
+        <path d="M12 2 14.2 8.8 21 11l-6.8 2.2L12 20l-2.2-6.8L3 11l6.8-2.2L12 2Z"></path>
+        <path d="M19 3v4"></path>
+        <path d="M21 5h-4"></path>
+      </symbol>
+      <symbol id="icon-printer" viewBox="0 0 24 24">
+        <rect x="5" y="3" width="14" height="6"></rect>
+        <rect x="4" y="9" width="16" height="12" rx="2"></rect>
+        <path d="M8 13h8"></path>
+        <path d="M12 13v5"></path>
+        <path d="m9 18 3 2 3-2"></path>
+      </symbol>
+      <symbol id="icon-package" viewBox="0 0 24 24">
+        <path d="m12 2 8 4.5v11L12 22l-8-4.5v-11L12 2Z"></path>
+        <path d="m4.5 7 7.5 4 7.5-4"></path>
+        <path d="M12 11v11"></path>
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path d="M6.5 10v8"></path>
+        <path d="M10.5 18v-4.4c0-2.2 1.3-3.6 3.2-3.6 1.8 0 2.8 1.3 2.8 3.6V18"></path>
+        <path d="M6.5 6.4v.1"></path>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <rect x="5" y="5" width="14" height="14" rx="4"></rect>
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M16.5 7.5h.1"></path>
+      </symbol>
+      <symbol id="icon-dribbble" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="7"></circle>
+        <path d="M6.5 9.5c4.2 0 7.7-1.4 10.1-3.2"></path>
+        <path d="M8.2 17.7c1.8-3.6 5.2-6.2 10.7-6.3"></path>
+        <path d="M9.4 5.7c2.2 2.8 3.9 6.8 5 12"></path>
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path d="M4 7h16"></path>
+        <path d="M4 12h16"></path>
+        <path d="M4 17h16"></path>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <rect x="3.5" y="5" width="17" height="14" rx="2"></rect>
+        <path d="m4.5 7 7.5 6 7.5-6"></path>
+      </symbol>
+      <symbol id="icon-ticket" viewBox="0 0 24 24">
+        <path d="M4 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2.2a2 2 0 0 0 0 3.6V16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2.2a2 2 0 0 0 0-3.6V8Z"></path>
+        <path d="M9 9h.01"></path>
+        <path d="M15 15h.01"></path>
+        <path d="m15 9-6 6"></path>
+      </symbol>
+      <symbol id="icon-copy" viewBox="0 0 24 24">
+        <rect x="8" y="8" width="11" height="11" rx="2"></rect>
+        <path d="M5 16H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 12 4 4L19 6"></path>
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24">
+        <path d="M6 6l12 12"></path>
+        <path d="M18 6 6 18"></path>
+      </symbol>
+    </svg>
+
+    <header class="site-header motion-load" style="--load-delay: 80ms">
+      <div class="header-shell">
+        <a class="logo" href="index.html" aria-label="Layero 3D Design főoldal">
+          <img class="logo__brand-mark" src="assets/layero-logo-mark-from-source.png" alt="" width="240" height="237">
+          <img class="logo__brand-wordmark" src="assets/layero-logo-wordmark-from-source.png" alt="Layero 3D Design" width="493" height="171">
+        </a>
+
+        <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" data-nav-toggle>
+          <span class="sr-only">Menu megnyitasa</span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-menu"></use></svg>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Főmenü">
+          <a href="vizio.html">Vízió</a>
+          <a href="egyedi-munkak.html">Egyedi munkák</a>
+          <a href="inspiracio.html">Inspiráció</a>
+          <a href="tudastar.html">Tudástár</a>
+          <a href="hogyan-mukodik.html">Hogyan működik</a>
+          <a href="rolunk.html">Rólunk</a>
+        </nav>
+
+        <a class="btn btn--outline header-cta" href="kapcsolat.html" aria-label="Belépés a Layero shopba">
+          Belépés a shopba
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <div class="page-decor" aria-hidden="true">
+        <span class="page-decor__item page-decor__item--network"></span>
+        <span class="page-decor__item page-decor__item--contours"></span>
+        <span class="page-decor__item page-decor__item--vortex"></span>
+        <span class="page-decor__item page-decor__item--ribbon"></span>
+      </div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__fx" aria-hidden="true">
+          <span class="hero__scan"></span>
+          <span class="hero__grid"></span>
+        </div>
+        <div class="hero__shade" aria-hidden="true"></div>
+
+        <aside class="hero-local" aria-label="Helyi gyártás Satu Mare-ben">
+          <div class="hero-local__scene">
+            <div class="hero-local__card">
+              <picture class="hero-local__picture">
+                <source media="(max-width: 720px)" srcset="assets/images/hero-local-romania-transparent-460.webp">
+                <img class="hero-local__img" src="assets/images/hero-local-romania-transparent-720.webp" alt="Románia térképe Satu Mare helyi gyártás jelöléssel" width="720" height="720">
+              </picture>
+              <span class="hero-local__marker">Satu Mare</span>
+            </div>
+          </div>
+        </aside>
+
+        <aside class="hero-flow" aria-label="Layero termékkategóriák">
+          <span class="hero-flow__arrow" aria-hidden="true">⌃</span>
+          <a class="hero-flow__item" href="egyedi-munkak.html">
+            <img src="assets/images/layero-wire-heart-sculpture.webp" alt="">
+            <span>Szobrok</span>
+          </a>
+          <a class="hero-flow__item" href="egyedi-munkak.html">
+            <img src="assets/images/parametric-vase-object.webp" alt="">
+            <span>Vázák</span>
+          </a>
+          <a class="hero-flow__item" href="inspiracio.html">
+            <img src="assets/images/decorative-lattice-ornament.webp" alt="">
+            <span>Dekorációk</span>
+          </a>
+          <a class="hero-flow__item" href="tudastar.html#muhelytitkok">
+            <img src="assets/images/lume-lampa-feature-900.webp" alt="">
+            <span>Lámpák</span>
+          </a>
+          <span class="hero-flow__arrow" aria-hidden="true">⌄</span>
+        </aside>
+
+        <div class="hero__content">
+          <img class="hero__logo motion-load" style="--load-delay: 280ms" src="assets/layero-logo.png" alt="Layero 3D Design" width="512" height="497">
+          <h1 class="motion-load" style="--load-delay: 460ms" id="hero-title">Az ötleted formát ölt, <span>rétegről rétegre.</span></h1>
+          <p class="hero__lead motion-load" style="--load-delay: 600ms">Személyre szabott ajándékok, egyedi 3D alkotások és rendelésre készült különleges darabok, prémium részletességgel és modern kivitelezéssel megalkotva.</p>
+          <div class="hero__actions motion-load" style="--load-delay: 740ms" aria-label="Fő műveletek">
+            <a class="btn btn--primary" href="kapcsolat.html">Egyedi megrendelés kérése</a>
+            <a class="btn btn--ghost" href="egyedi-munkak.html">
+              Belépés a shopba
+              <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement section" id="vision" aria-labelledby="statement-title">
+        <div class="container statement__grid">
+          <div class="statement__copy">
+            <p class="eyebrow">Többet alkotunk tárgyaknál.</p>
+            <h2 id="statement-title">A személyes történetek <span style="color:#00dfff">formát kapnak.</span></h2>
+            <p class="statement__body">Egy név, egy emlék, egy fontos dátum vagy egy egyedi elképzelés — nálunk ezekből születnek meg azok a prémium 3D alkotások, amelyek nemcsak szépek, hanem jelentést is hordoznak. Minden darab egy gondolatból indul, és gondos tervezés után válik kézzelfoghatóvá.</p>
+          </div>
+          <div class="statement__visual" aria-hidden="true">
+            <img src="assets/images/layero-wire-heart-sculpture.webp" alt="" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="works" aria-labelledby="services-title">
+        <div class="container">
+          <h2 class="section-title" id="services-title">Egyedi irányok, prémium kivitelben</h2>
+          <div class="services__grid">
+            <article class="service-card">
+              <svg class="service-card__icon" aria-hidden="true"><use href="#icon-gift"></use></svg>
+              <div>
+                <h3>Személyre szabott ajándékok</h3>
+                <p>Jelentéssel teli, emlékezetes, kifejezetten nekik készítve.</p>
+              </div>
+            </article>
+            <article class="service-card">
+              <svg class="service-card__icon" aria-hidden="true"><use href="#icon-cube"></use></svg>
+              <div>
+                <h3>Egyedi megrendelések</h3>
+                <p>A te ötleted, a mi precizitásunk. Közösen megalkotva.</p>
+              </div>
+            </article>
+            <article class="service-card">
+              <svg class="service-card__icon" aria-hidden="true"><use href="#icon-sculpture"></use></svg>
+              <div>
+                <h3>Prémium 3D alkotások</h3>
+                <p>Szenvedéllyel és precizitással megalkotott innovatív formák.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-command section" id="process" aria-labelledby="process-title">
+        <div class="how-command__shell">
+          <div class="how-command__header">
+            <img class="how-command__badge" src="assets/images/how-command/local-premium-badge.webp" alt="Helyi gyártás, prémium minőség" loading="lazy">
+            <div class="how-command__origin" aria-label="Romániai termék, Romániában gyártva">
+              <img class="how-command__origin-map" src="assets/images/how-command/new-icon-romania.webp" alt="" aria-hidden="true" loading="lazy">
+              <span>Romániai termék</span>
+              <span class="how-command__origin-divider" aria-hidden="true"></span>
+              <span class="how-command__origin-flag" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span>Romániában gyártva</span>
+            </div>
+            <figure class="how-command__map">
+              <img src="assets/images/how-command/romania-satu-mare-map.png" alt="Romániai gyártási helyszín, Satu Mare / Szatmárnémeti" loading="lazy">
+              <figcaption>Satu Mare /<br>Szatmárnémeti</figcaption>
+            </figure>
+            <h2 id="process-title">Hogyan jut <span>el hozzád?</span></h2>
+            <p>Átlátható vásárlási folyamat, helyi gyártással.</p>
+          </div>
+
+          <div class="how-command__steps" aria-label="A Layero rendelési folyamat lépései">
+            <article class="how-command__step">
+              <img src="assets/images/how-command/step-01-selection.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>1. Választás</h3>
+                <p>Fedezd fel a lehetőségeket, és válaszd ki azt az alapot, amely legjobban illik az ötletedhez.</p>
+              </div>
+            </article>
+            <article class="how-command__step">
+              <img src="assets/images/how-command/step-02-customization.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>2. Testreszabás</h3>
+                <p>Add meg a nevet, méretet, színeket és minden fontos személyes részletet.</p>
+              </div>
+            </article>
+            <article class="how-command__step">
+              <img src="assets/images/how-command/step-03-confirmation.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>3. Visszaigazolás</h3>
+                <p>Átnézzük az elképzelést, pontosítjuk a részleteket, majd visszaigazoljuk a rendelést.</p>
+              </div>
+            </article>
+            <article class="how-command__step">
+              <img src="assets/images/how-command/step-04-production.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>4. Gyártás</h3>
+                <p>Helyi műhelyben, gondos beállításokkal és rétegről rétegre készítjük el a terméket.</p>
+              </div>
+            </article>
+            <article class="how-command__step">
+              <img src="assets/images/how-command/step-05-delivery.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>5. Kiszállítás</h3>
+                <p>Prémium csomagolásban, biztonságosan előkészítve küldjük el hozzád.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="how-command__divider" aria-hidden="true">
+            <span></span>
+            <strong>Miért különleges?</strong>
+            <span></span>
+          </div>
+
+          <div class="how-command__benefits" aria-label="Layero előnyök">
+            <article class="how-command__benefit">
+              <img src="assets/images/how-command/new-icon-romania.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>Helyi készítés</h3>
+                <p>Romániában, romániai szakértelemmel és odafigyeléssel.</p>
+              </div>
+            </article>
+            <article class="how-command__benefit">
+              <img src="assets/images/how-command/new-icon-fingerprint.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>Egyedi rendelés</h3>
+                <p>Nincs két egyforma termék. Minden darab a te ötletedből születik.</p>
+              </div>
+            </article>
+            <article class="how-command__benefit">
+              <img src="assets/images/how-command/new-icon-gift.webp" alt="" aria-hidden="true" loading="lazy">
+              <div>
+                <h3>Prémium csomagolás</h3>
+                <p>Igényes megjelenés belül és kívül - tökéletes ajándéknak is.</p>
+              </div>
+            </article>
+          </div>
+
+          <a class="btn btn--primary how-command__cta" href="kapcsolat.html">
+            Saját terméket szeretnék
+            <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+          </a>
+        </div>
+      </section>
+
+      <section class="gallery section" id="inspiration" aria-labelledby="gallery-title">
+        <div class="container">
+          <p class="eyebrow eyebrow--center">Személyessé tett ötletek</p>
+          <h2 class="sr-only" id="gallery-title">Inspirációs galéria</h2>
+          <div class="gallery__grid" aria-label="Layero inspirációs vizuálok">
+            <figure class="gallery-card">
+              <img src="assets/images/personalized-father-plaque.webp" alt="Világító akril ajándék plakett apának" loading="lazy">
+            </figure>
+            <figure class="gallery-card">
+              <img src="assets/images/custom-family-nameplate.webp" alt="Egyedi családi névtábla meleg fényben" loading="lazy">
+            </figure>
+            <figure class="gallery-card">
+              <img src="assets/images/parametric-vase-object.webp" alt="Sötét parametrikus 3D váza" loading="lazy">
+            </figure>
+            <figure class="gallery-card">
+              <img src="assets/images/branded-3d-object-emblem.webp" alt="Márkázott fémes 3D objektum embléma" loading="lazy">
+            </figure>
+            <figure class="gallery-card">
+              <img src="assets/images/decorative-lattice-ornament.webp" alt="Dekoratív filigrán rácsos dísztárgy" loading="lazy">
+            </figure>
+          </div>
+
+          <div class="monthly-creation" id="monthly-creation" aria-labelledby="monthly-title">
+            <div class="monthly-creation__panel">
+              <div class="monthly-creation__content">
+                <p class="monthly-creation__kicker">Hónap alkotása <span aria-hidden="true">•</span> Június</p>
+                <h3 id="monthly-title">Lumé lámpa <span>amikor a <em>fény formát</em> kap</span></h3>
+                <p>Egy organikus mintázatú, 3D nyomtatott hangulatlámpa, amely nappal karakteres design tárgy, este pedig meleg fényével különleges atmoszférát teremt.</p>
+
+                <div class="monthly-creation__facts" aria-label="Lumé lámpa jellemzői">
+                  <div class="monthly-creation__fact">
+                    <span><svg class="icon" aria-hidden="true"><use href="#icon-clock"></use></svg></span>
+                    <strong>32 óra</strong>
+                    <small>nyomtatás</small>
+                  </div>
+                  <div class="monthly-creation__fact">
+                    <span><svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg></span>
+                    <strong>Prémium</strong>
+                    <small>PLA</small>
+                  </div>
+                  <div class="monthly-creation__fact">
+                    <span><svg class="icon" aria-hidden="true"><use href="#icon-pen"></use></svg></span>
+                    <strong>Kézi</strong>
+                    <small>utómunka</small>
+                  </div>
+                  <div class="monthly-creation__fact">
+                    <span><svg class="icon" aria-hidden="true"><use href="#icon-spark"></use></svg></span>
+                    <strong>Hangulatfény</strong>
+                  </div>
+                </div>
+
+                <a class="btn btn--ghost monthly-creation__story" href="tudastar.html#muhelytitkok">
+                  Megnézem a történetét
+                  <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+            </div>
+
+            <a class="btn btn--ghost monthly-creation__more" href="inspiracio.html">
+              Továbbiak megtekintése
+              <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section" id="contact" aria-labelledby="cta-title">
+        <div class="container">
+          <div class="final-cta__panel">
+            <h2 id="cta-title">Alkossunk valami <span>igazán egyedit.</span></h2>
+            <p>Minden projekt egy beszélgetéssel kezdődik. Oszd meg az ötleted, és alkossunk valami felejthetetlent.</p>
+            <a class="btn btn--primary" href="kapcsolat.html">
+              Projekt indítása
+              <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <a class="logo" href="index.html" aria-label="Layero 3D Design főoldal">
+            <img class="logo__brand-mark" src="assets/layero-logo-mark-from-source.png" alt="" width="240" height="237">
+            <img class="logo__brand-wordmark" src="assets/layero-logo-wordmark-from-source.png" alt="Layero 3D Design" width="493" height="171">
+          </a>
+          <p>Egyedi 3D alkotások és személyre szabott ajándékok modern technológiával és szenvedéllyel készítve.</p>
+        </div>
+        <nav class="footer__links" aria-label="Gyors linkek">
+          <h2>Gyors linkek</h2>
+          <a href="index.html">Főoldal</a>
+          <a href="egyedi-munkak.html">Egyedi munkák</a>
+          <a href="inspiracio.html">Inspiráció</a>
+          <a href="tudastar.html">Tudástár</a>
+          <a href="hogyan-mukodik.html">Hogyan működik</a>
+          <a href="rolunk.html">Rólunk</a>
+        </nav>
+        <nav class="footer__links" aria-label="Szolgáltatások">
+          <h2>Szolgáltatások</h2>
+          <a href="szemelyre-szabott-ajandekok.html">Személyre szabott ajándékok</a>
+          <a href="egyedi-munkak.html">Egyedi megrendelések</a>
+          <a href="egyedi-munkak.html">Prémium 3D alkotások</a>
+          <a href="markaknak-es-alkotoknak.html">Céges megrendelések</a>
+        </nav>
+        <div class="footer__contact">
+          <h2>Kapcsolat</h2>
+          <a href="mailto:hello@layero3d.hu">hello@layero3d.hu</a>
+          <a href="tel:+36701234567">+36 70 123 4567</a>
+          <span>Magyarország</span>
+          <div class="socials" aria-label="Közösségi linkek">
+            <a href="#" aria-label="LinkedIn">
+              <svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg class="icon" aria-hidden="true"><use href="#icon-instagram"></use></svg>
+            </a>
+            <a href="#" aria-label="Dribbble">
+              <svg class="icon" aria-hidden="true"><use href="#icon-dribbble"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        <p>© 2024 Layero 3D Design. Minden jog fenntartva.</p>
+        <div>
+          <a href="#">Adatvédelmi tájékoztató</a>
+          <a href="#">Általános szerződési feltételek</a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="newsletter-fab" type="button" data-newsletter-open aria-haspopup="dialog" aria-controls="newsletter-popup">
+      <span class="newsletter-fab__icon" aria-hidden="true">
+        <svg class="icon"><use href="#icon-ticket"></use></svg>
+      </span>
+      <span>
+        <strong>-10% els&#337; rendel&eacute;sre</strong>
+        <small>&Uacute;j felhaszn&aacute;l&oacute;i b&oacute;nusz</small>
+      </span>
+    </button>
+
+    <div class="newsletter-modal" id="newsletter-popup" role="dialog" aria-modal="true" aria-labelledby="newsletter-title" aria-describedby="newsletter-description" hidden data-newsletter-modal>
+      <div class="newsletter-modal__backdrop" data-newsletter-close></div>
+      <section class="newsletter-modal__panel" tabindex="-1">
+        <button class="newsletter-modal__close" type="button" data-newsletter-close aria-label="Newsletter ablak bez&aacute;r&aacute;sa">
+          <svg class="icon" aria-hidden="true"><use href="#icon-x"></use></svg>
+        </button>
+        <div class="newsletter-modal__visual" aria-hidden="true">
+          <svg class="icon"><use href="#icon-mail"></use></svg>
+          <span>LAYERO10</span>
+        </div>
+        <div class="newsletter-modal__copy">
+          <p class="eyebrow">Newsletter b&oacute;nusz</p>
+          <h2 id="newsletter-title">&Uacute;j felhaszn&aacute;l&oacute;k&eacute;nt kapsz <span>10% kedvezm&eacute;nyt.</span></h2>
+          <p id="newsletter-description">Iratkozz fel a Layero h&iacute;rlev&eacute;lre, &eacute;s azonnal megkapod az els&#337; egyedi 3D rendel&eacute;sedhez haszn&aacute;lhat&oacute; kuponk&oacute;dot.</p>
+
+          <form class="newsletter-form" data-newsletter-form novalidate>
+            <label for="newsletter-name">N&eacute;v</label>
+            <input id="newsletter-name" name="name" type="text" autocomplete="name" placeholder="Hogyan sz&oacute;l&iacute;thatunk?">
+
+            <label for="newsletter-email">Email c&iacute;m</label>
+            <input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="email@pelda.hu" required>
+
+            <label class="newsletter-form__consent">
+              <input type="checkbox" name="consent" required>
+              <span>Elfogadom, hogy a Layero h&iacute;rlevelet &eacute;s aj&aacute;nlatokat k&uuml;ldj&ouml;n. B&aacute;rmikor leiratkozhatok.</span>
+            </label>
+
+            <button class="btn btn--primary" type="submit">
+              Feliratkozom &eacute;s k&eacute;rem a b&oacute;nuszt
+              <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </button>
+
+            <p class="newsletter-form__status" data-newsletter-status role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="newsletter-success" hidden data-newsletter-success>
+            <div class="newsletter-success__mark" aria-hidden="true">
+              <svg class="icon"><use href="#icon-check"></use></svg>
+            </div>
+            <h3>Sikeres feliratkoz&aacute;s</h3>
+            <p>A b&oacute;nusz k&oacute;dod az els&#337; rendel&eacute;shez:</p>
+            <output class="newsletter-success__code" aria-label="Kuponk&oacute;d">LAYERO10</output>
+            <button class="btn btn--outline" type="button" data-copy-code>
+              Kupon m&aacute;sol&aacute;sa
+              <svg class="icon" aria-hidden="true"><use href="#icon-copy"></use></svg>
+            </button>
+            <p class="newsletter-success__copy-status" data-copy-status aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
